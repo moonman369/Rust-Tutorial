@@ -43,9 +43,10 @@ fn main() {
     println!("hashmap map = {:?}", map);
     map.insert(3, "odd");
     println!("hashmap map = {:?}", map);
+    // map.insert(1, "odd");
+    // map.insert(1, "odd");
+    // map.insert(1, "odd");
 
-    // map.insert(1, "odd");
-    // map.insert(1, "odd");
-    // map.insert(1, "odd");
+
 
 }
