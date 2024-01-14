@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 fn main() {
     println!("I like rusty spoons!");
 
@@ -32,5 +34,18 @@ fn main() {
     vec.push("pop");
     vec.pop();
     println!("vector vec = {:?}", vec);
+
+    // Hashmap
+    let mut map: HashMap<i32,&str> = std::collections::HashMap::new();
+    map.insert(1, "odd");
+    map.insert(2, "even");
+    map.insert(3, "even");
+    println!("hashmap map = {:?}", map);
+    map.insert(3, "odd");
+    println!("hashmap map = {:?}", map);
+
+    // map.insert(1, "odd");
+    // map.insert(1, "odd");
+    // map.insert(1, "odd");
 
 }
